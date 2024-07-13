@@ -1,0 +1,144 @@
+body{
+    background-color:rgb(21, 26, 44);
+    font-size: 18px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    font-size: 23px;
+    margin-top:0px;
+    height:80px;
+    text-align:right;
+    background-color: rgb(32, 77, 119);
+    line-height: 3;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.nav{
+    margin:60px 30px 10px 30px;
+    padding-top:60px;
+    color: white;
+}
+#welcome-section{
+    width:70%;
+    height:900px;
+    margin: auto;
+    font-size: 45px;
+    padding-top:200px;
+    color:white;
+    text-align: center;
+}
+img{
+    width:300px;
+    height:300px;
+    align-content: center;
+}
+#projects {
+    width: 98.90%;
+    background-color: rgb(69, 116, 181);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+    gap: 30px;
+    padding: 30px;
+
+}
+.project-title{
+    text-align:center;
+    align-content: center;
+    line-height: 3;
+    color:white;
+    font-size: 32px;
+    background-color: rgb(69, 116, 181);
+    height:200px;
+    margin-bottom: 0;
+    width:101.60%;
+}
+
+#start{
+    width:101.29%;
+}
+
+.img-proj {
+    background-color: rgb(22, 63, 134);
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    color:white;
+    font-weight: 200;
+}
+#profiles-link{
+    height:200px;
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 48px;
+    word-spacing: 5;
+    opacity: 90%;
+}
+#welcome-section p{
+    color:blue;
+}
+i{
+    margin: 10px 15px 10px 80px;
+}
+#profiles-link a{
+    color:white;
+    transform: scale(0.95); 
+    transition: transform 0.3s ease; 
+}
+a:hover{
+    transform: scale(0.95); 
+    transition: transform 0.3s ease; 
+}
+#navbar {
+    background-color: rgb(32, 77, 119);
+    font-size: 23px;
+    height: 80px;
+    line-height: 80px; 
+    text-align: right;
+    padding: 0 30px; 
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 1000; 
+}
+@media only screen and (max-width: 768px) {
+    #navbar {
+        font-size: 18px;
+        height: 60px;
+        line-height: 60px; 
+        padding: 0 20px; 
+    }
+
+    #navbar a {
+        padding: 0 10px; 
+    }
+
+    #welcome-section {
+        padding-top: 150px; 
+    }
+
+    .project-title {
+        font-size: 28px;
+    }
+
+    .img-proj {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #profiles-link {
+        font-size: 35px; 
+        padding-top: 30px; 
+    }
+
+    i {
+        margin: 10px 10px; 
+    }
+}
